@@ -56,6 +56,24 @@ async def main():
 
     # Fetch tweets for GustavoBolivar
     await fetch_tweets(api, "GustavoBolivar", "tweets_GustavoBolivar.txt")
+    
+      # Fetch tweets for Nicolas_ramos_b
+    await fetch_tweets(api, "Nicolas_ramos_b", "tweets_Nicolas_ramos_b.txt")
+    
+          # Fetch tweets for Rodrigo_Lara_
+    await fetch_tweets(api, "Rodrigo_Lara_", "tweets_Rodrigo_Lara_.txt")   
+    
+      # Fetch tweets for Diego_Molano
+    await fetch_tweets(api, "Diego_Molano", "tweets_Diego_Molano.txt")
+    
+    # Fetch tweets for JERobledo
+    await fetch_tweets(api, "JERobledo", "tweets_JERobledo.txt")
+
+    # Fetch tweets for CarlosFGalan
+    await fetch_tweets(api, "CarlosFGalan", "tweets_CarlosFGalan.txt")
+
+            # Fetch tweets for ElGeneralVargas
+    await fetch_tweets(api, "ElGeneralVargas", "tweets_ElGeneralVargas.txt")
 
     #Fetch tweets for Alcaldia de bogota
     q = "Alcadia Bogota since:2023-01-01 until:2023-08-31"

@@ -17,3 +17,9 @@ def tweets_to_csv(input_filename, output_filename):
 if __name__ == "__main__":
     tweets_to_csv("tweets_JDOviedoA.txt", "tweets_JDOviedoA.csv")
     tweets_to_csv("tweets_GustavoBolivar.txt", "tweets_GustavoBolivar.csv")
+    tweets_to_csv("tweets_Nicolas_ramos_b.txt", "tweets_Nicolas_ramos_b.csv")
+    tweets_to_csv("tweets_Rodrigo_Lara_.txt", "tweets_Rodrigo_Lara_.csv")
+    tweets_to_csv("tweets_Diego_Molano.txt", "tweets_Diego_Molano.csv")
+    tweets_to_csv("tweets_JERobledo.txt", "tweets_JERobledo.csv")
+    tweets_to_csv("tweets_CarlosFGalan.txt", "tweets_CarlosFGalan.csv")
+    tweets_to_csv("tweets_ElGeneralVargas.txt", "tweets_ElGeneralVargas.csv")
